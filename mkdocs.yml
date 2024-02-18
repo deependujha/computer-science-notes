@@ -1,5 +1,5 @@
 # Project information
-site_name: Computer Science notes 📝
+site_name: Computer Science notes 🧑🏻‍💻📝
 site_url: https://deependujha.github.io/computer-science-notes
 site_author: Deependu Jha
 site_description: >-
@@ -15,10 +15,10 @@ copyright: Copyright &copy; 2024 Deependu Jha
 theme:
   name: material
   features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
     - content.code.copy
     # - content.code.select
     # - content.footnote.tooltips
@@ -43,15 +43,13 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: pink
       accent: pink
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: indigo
       toggle:
@@ -81,8 +79,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - toc:
-      permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
