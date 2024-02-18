@@ -121,8 +121,10 @@ nav:
   - Home: index.md
   - Operating Systems:
     - Home: 01-os/index.md
-    - Alpha: 01-os/alpha.md
-    - Beta: 01-os/beta.md
+    - Lectures:
+        - Introduction: 01-os/lectures/01-introduction-to-os.md
+        - Types of OS: 01-os/lectures/02-types-of-os.md
+        - multi-tasking Vs multi-threading: 01-os/lectures/03-multi-tasking-vs-multi-threading.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
