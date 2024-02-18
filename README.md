@@ -1,1 +1,7 @@
-# operating-system-notes
+# Operating System Notes ✌🏻
+
+## Run server
+
+```bash
+mkdocs serve
+```
