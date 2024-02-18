@@ -1,13 +1,5 @@
 # Types of Operating Systems
 
-## Goals of OS 🙂
-
-- Maximum CPU utilization
-- Less process starvation
-- Higher-priority job execution
-
----
-
 ## Types of OS 🎉
 
 - **Single processing OS** [MS-DOS 1981]
@@ -19,6 +11,7 @@
 - **Real-time OS** [ATCS]
 
 ---
+
 ## ~> Details of OS 🤓
 
 ### **1. Single processing OS**

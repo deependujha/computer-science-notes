@@ -35,3 +35,11 @@ application software.
 - Resource management (Aka, Arbitration) (memory, device, file, security, process, etc)
 - Hides the underlying complexity of the hardware. (Aka, Abstraction)
 - facilitates the execution of application programs by providing isolation and protection.
+
+---
+
+## Goals of OS 🙂
+
+- Maximum CPU utilization
+- Less process starvation
+- Higher-priority job execution
