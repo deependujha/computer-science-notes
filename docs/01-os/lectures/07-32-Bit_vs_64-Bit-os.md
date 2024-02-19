@@ -1,1 +1,0 @@
-# Difference between 32-bit & 64-bit Operating System
