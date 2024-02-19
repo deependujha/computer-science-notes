@@ -28,14 +28,14 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
+    - navigation.sections # comment this if you want `navigation expansion and collapse`
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
@@ -137,6 +137,7 @@ nav:
     - Process Management:
         - Introduction to Process Management: 01-os/02-process-management/01-intro-to-process-management.md
         - Process States & Process Queues: 01-os/02-process-management/02-process-state-n-process-queues.md
+        - Swapping, Context Switching, Orphan & Zombie Process: 01-os/02-process-management/03-swapping-context-switching-orphan-n-zombie-process.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
