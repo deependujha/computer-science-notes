@@ -1,4 +1,4 @@
-# Operating System Notes ✌🏻
+# Computer Science Notes ✌🏻
 
 ## Run server
 

@@ -135,7 +135,8 @@ nav:
         - 32 Bit Vs 64 Bit: 01-os/01-Basic-Concepts/07-32-Bit_vs_64-Bit-os.md
         - Different storage devices: 01-os/01-Basic-Concepts/08-different-STORAGES-used-in-computers.md
     - Process Management:
-        - Introduction to Process: 01-os/02-process-management/01-intro-to-process-management.md
+        - Introduction to Process Management: 01-os/02-process-management/01-intro-to-process-management.md
+        - Process States & Process Queues: 01-os/02-process-management/02-process-state-n-process-queues.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
