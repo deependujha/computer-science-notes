@@ -19,6 +19,26 @@ underlying hardware. It interacts with kernel.
 
 ---
 
+## CPU execution modes 🚦
+
+There are two modes in which CPU can execute code:
+
+1. **User mode**
+    - non-privileged mode.
+    - used to run user applications and programs defined in **user space**.
+
+2. **Kernel mode**
+    - privileged mode.
+    - used to run the kernel and core OS services (defined in **kernel space**).
+
+!!! info "Kernel mode"
+    When you are typing `mkdir newDir` in terminal, the `mkdir` command is running in user mode, but the `mkdir` command is calling the `mkdir` **system call** which is running in kernel mode.
+
+    - CPU execution switches from `user mode` to `kernel mode`.
+    - This is done by **system interrupts**.
+    - *The switching takes some time, so it's not good to switch frequently*.
+---
+
 ## Functions of Kernel 👮🏻‍♂️
 
 !!! note "1. Process management"
@@ -58,10 +78,12 @@ underlying hardware. It interacts with kernel.
 
 ### **1. Monolithic Kernel**
 - All functions are in kernel itself.
+```diff
 - Bulky in size.
 - Memory required to run is high.
 - Less reliable, one module crashes -> whole kernel is down.
-- High performance as communication is fast. (Less user mode, kernel mode overheads)
++ High performance as communication is fast. (Less user mode, kernel mode overheads)
+```
 - Eg. **Linux, Unix, MS-DOS**.
 
 ---
@@ -71,11 +93,13 @@ underlying hardware. It interacts with kernel.
     - Memory management.
     - Process management.
 - File management and IO management are in User-space.
-- smaller in size.
-- More Reliable
-- More stable
-- Performance is slow.
+```diff
++ smaller in size.
++ More Reliable
++ More stable
+- Performance is slow (bcoz of switching between user mode and kernel mode)
 - Overhead switching b/w user mode and kernel mode.
+```
 - Eg. **L4 Linux, Symbian OS, MINIX** etc.
 
 ---
@@ -83,19 +107,31 @@ underlying hardware. It interacts with kernel.
 ### **3. Hybrid Kernel**
 
 - Advantages of both worlds. (File management. in User space and rest in Kernel space. )
-- Combined approach.
-- Speed and design of mono.
-- Modularity and stability of micro.
+```diff
++ Combined approach.
++ Speed and design of mono.
++ Modularity and stability of micro.
+```
 - Eg. **MacOS, Windows NT/7/10**
 - IPC also happens but lesser overheads
 
 ---
 
-### **4. Nano/Exo kernels**
+### **4. Exo kernels**
 - Smallest in size.
 - Only basic functions.
 - Rest in user space.
-- Eg. **Singularity, EROS**
+```diff
+- has fewest hardware abstractions as possible.
+- It allocates physical resources to applications.
+```
+---
+
+### **5. Nano Kernel**
+- It is the type of kernel that offers hardware abstraction but without system services.
+- Micro Kernel also does not have system services therefore **the Micro Kernel and Nano Kernel have become analogous.**
+- The main difference between the two is that the Nano Kernel is designed to be as small as possible.
+- `Micro kernels` which actually are **micro** in size are also called `nano kernels`.
 
 ??? info "Nano/Exo kernels"
     a type of operating system kernel that has a minimal and streamlined design, with a focus on minimalism and efficiency. The goal of a nano kernel is to provide only the essential functions required for the operation of a system while delegating other functions to user-space processes.
@@ -104,6 +140,11 @@ underlying hardware. It interacts with kernel.
 
 ## Communication b/w User mode and Kernel mode 📡
 ???+ danger "Q. How will communication happen between user mode and kernel mode?"
-    -   **Inter process communication (IPC)**.
-        - Two processes executing independently, having independent memory space (Memory protection), But some may need to communicate to work.
-        - **Done by shared memory and message passing**.
+    -   **Inter process communication (IPC)**. This can be done in two ways:
+        - **Shared memory:** 
+            - A region of memory that is shared between two processes.
+            - One process writes to the shared memory and the other process reads from it.
+        - **Message passing:** 
+            - A logical channel is established between two processes.
+            - A process sends a message to another process and the other process receives it.
+            - Eg. **pipes, sockets, message queues, signals, semaphores, shared memory, and message passing.**
