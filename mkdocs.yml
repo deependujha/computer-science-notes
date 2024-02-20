@@ -144,6 +144,8 @@ nav:
           - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
           - Multi-Level Queue & Multi-Level Feedback Queue: 01-os/02-process-management/04-process-scheduling/04-mlq-n-mlfq.md
           - Comparison b/w different scheduling algorithms: 01-os/02-process-management/04-process-scheduling/05-comparison-between-process-scheduling-algos.md
+        - Concurrency & Deadlocks:
+          - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
