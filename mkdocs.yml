@@ -142,6 +142,8 @@ nav:
           - Introduction to Process Scheduling: 01-os/02-process-management/04-process-scheduling/01-introduction-to-process-scheduling.md
           - FCFS & Convoy Effect: 01-os/02-process-management/04-process-scheduling/02-fcfs-n-convoy-effect.md
           - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
+          - Multi-Level Queue & Multi-Level Feedback Queue: 01-os/02-process-management/04-process-scheduling/04-mlq-n-mlfq.md
+          - Comparison b/w different scheduling algorithms: 01-os/02-process-management/04-process-scheduling/05-comparison-between-process-scheduling-algos.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
