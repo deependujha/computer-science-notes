@@ -138,6 +138,10 @@ nav:
         - Introduction to Process Management: 01-os/02-process-management/01-intro-to-process-management.md
         - Process States & Process Queues: 01-os/02-process-management/02-process-state-n-process-queues.md
         - Swapping, Context Switching, Orphan & Zombie Process: 01-os/02-process-management/03-swapping-context-switching-orphan-n-zombie-process.md
+        - Process Scheduling:
+          - Introduction to Process Scheduling: 01-os/02-process-management/04-process-scheduling/01-introduction-to-process-scheduling.md
+          - FCFS & Convoy Effect: 01-os/02-process-management/04-process-scheduling/02-fcfs-n-convoy-effect.md
+          - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
   - DBMS:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
