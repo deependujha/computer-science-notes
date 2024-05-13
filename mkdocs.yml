@@ -156,5 +156,6 @@ nav:
     - Graph:
       - Introduction, BFS & DFS:
         - Basic Concepts & representation: 04-dsa/01-graph/01-intro-bfs-dfs/01-introduction.md
-        - Breadth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/02-bfs.md
-        - Depth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/03-dfs.md
+        - Disconnected components: 04-dsa/01-graph/01-intro-bfs-dfs/02-disconnected-components.md
+        - Breadth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/03-bfs.md
+        - Depth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/04-dfs.md
