@@ -15,3 +15,27 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+---
+
+## Content tabs
+
+!!! example
+
+    === "C++"
+
+        ```cpp
+        # include<iostream>
+        using namespace std;
+
+        int main(){
+            cout<<"Hello World"<<endl;
+            return 0;
+        }
+        ```
+
+    === "Python"
+
+        ```python
+        print("Hello World")
+        ```

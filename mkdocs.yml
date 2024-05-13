@@ -150,3 +150,11 @@ nav:
     - Home: 02-dbms/index.md
     - SQL: 02-dbms/sql.md
     - NoSQL: 02-dbms/nosql.md
+
+  - DSA:
+    - Home: 04-dsa/index.md
+    - Graph:
+      - Introduction, BFS & DFS:
+        - Basic Concepts & representation: 04-dsa/01-graph/01-intro-bfs-dfs/01-introduction.md
+        - Breadth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/02-bfs.md
+        - Depth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/03-dfs.md
