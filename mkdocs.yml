@@ -28,7 +28,7 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    - navigation.expand
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
@@ -159,3 +159,9 @@ nav:
         - Disconnected components: 04-dsa/01-graph/01-intro-bfs-dfs/02-disconnected-components.md
         - Breadth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/03-bfs.md
         - Depth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/04-dfs.md
+      - Cycle detection & topo sort:
+        - Cycle detection in Undirected (BFS & DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/01-cycle-detection-undirected-bfs-and-dfs.md
+        - Cycle detection in Directed (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/02-cycle-detection-directed-dfs.md
+        - Topological sort (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/03-topological-sort-dfs.md
+        - Topological sort (Kahn's algorithm): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/04-topological-sort-kahn-algorithm.md
+        
