@@ -164,4 +164,5 @@ nav:
         - Cycle detection in Directed (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/02-cycle-detection-directed-dfs.md
         - Topological sort (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/03-topological-sort-dfs.md
         - Topological sort (Kahn's algorithm): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/04-topological-sort-kahn-algorithm.md
+        - Cycle detection in Directed (BFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/05-cycle-detection-directed-bfs.md
         
