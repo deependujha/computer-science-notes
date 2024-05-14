@@ -5,6 +5,13 @@ We use the very same code as in `Kahn's algorithm`.
 - If the length of the topo sort array is equal to no. of nodes, no cycle is present.
 - Else, graph is cyclic.
 
+!!! note
+	We don't need to worry about disconnect components in Kahn's algorithm.
+
+	- As all we care about is in-degree to be 0, and cycle can be present in any component.
+	- Our in-degree calculation will take care of this itself.
+
+
 ---
 
 ## Code

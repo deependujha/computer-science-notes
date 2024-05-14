@@ -2,6 +2,14 @@
 
 An iterative approach to get topological sort of the graph.
 
+!!! note
+	We don't need to worry about disconnect components in Kahn's algorithm.
+
+	- As all we care about is in-degree to be 0, and cycle can be present in any component.
+	- Our in-degree calculation will take care of this itself.
+
+---
+
 ## Algorithm
 
 ```code

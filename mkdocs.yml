@@ -154,6 +154,7 @@ nav:
   - DSA:
     - Home: 04-dsa/index.md
     - Graph:
+      - Home: 04-dsa/01-graph/index.md
       - Introduction, BFS & DFS:
         - Basic Concepts & representation: 04-dsa/01-graph/01-intro-bfs-dfs/01-introduction.md
         - Disconnected components: 04-dsa/01-graph/01-intro-bfs-dfs/02-disconnected-components.md
@@ -165,4 +166,8 @@ nav:
         - Topological sort (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/03-topological-sort-dfs.md
         - Topological sort (Kahn's algorithm): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/04-topological-sort-kahn-algorithm.md
         - Cycle detection in Directed (BFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/05-cycle-detection-directed-bfs.md
+      - Shortest path in Graph:
+        - Undirected Graph: 04-dsa/01-graph/03-shortest-path-in-graph/01-shortest-path-in-undirected.md
+        - Directed acyclic graph (DAG): 04-dsa/01-graph/03-shortest-path-in-graph/02-shortest-path-in-directed-acyclic-graph.md
+        - Dijkstra's algorithm: 04-dsa/01-graph/03-shortest-path-in-graph/03-dijkstra-algorithm.md
         
