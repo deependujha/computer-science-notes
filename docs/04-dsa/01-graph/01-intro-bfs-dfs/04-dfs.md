@@ -1,4 +1,4 @@
-# Depth-First Search (BFS)
+# Depth-First Search (DFS)
 
 ## Visualization
 

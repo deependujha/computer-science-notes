@@ -159,7 +159,7 @@ nav:
         - Basic Concepts & representation: 04-dsa/01-graph/01-intro-bfs-dfs/01-introduction.md
         - Disconnected components: 04-dsa/01-graph/01-intro-bfs-dfs/02-disconnected-components.md
         - Breadth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/03-bfs.md
-        - Depth-first-search (BFS): 04-dsa/01-graph/01-intro-bfs-dfs/04-dfs.md
+        - Depth-first-search (DFS): 04-dsa/01-graph/01-intro-bfs-dfs/04-dfs.md
       - Cycle detection & topo sort:
         - Cycle detection in Undirected (BFS & DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/01-cycle-detection-undirected-bfs-and-dfs.md
         - Cycle detection in Directed (DFS): 04-dsa/01-graph/02-cycle-detection-and-topo-sort/02-cycle-detection-directed-dfs.md
@@ -170,4 +170,14 @@ nav:
         - Undirected Graph: 04-dsa/01-graph/03-shortest-path-in-graph/01-shortest-path-in-undirected.md
         - Directed acyclic graph (DAG): 04-dsa/01-graph/03-shortest-path-in-graph/02-shortest-path-in-directed-acyclic-graph.md
         - Dijkstra's algorithm: 04-dsa/01-graph/03-shortest-path-in-graph/03-dijkstra-algorithm.md
-        
+        - Bellman-Ford algorithm: 04-dsa/01-graph/03-shortest-path-in-graph/04-bellman-ford-algorithm.md
+        - Floyd Warshall algorithm: 04-dsa/01-graph/03-shortest-path-in-graph/05-floyd-warshall-algorithm.md
+      - Minimum spanning tree:
+        - Minimum spanning tree: 04-dsa/01-graph/04-minimum-spanning-trees/01-minimum-spanning-tree.md
+        - Prim's algorithm: 04-dsa/01-graph/04-minimum-spanning-trees/02-prims-algorithm.md
+        - Disjoint set union (by Rank & size): 04-dsa/01-graph/04-minimum-spanning-trees/03-disjoint-set-union-by-rank-and-size.md
+        - Kruskal's algorithm: 04-dsa/01-graph/04-minimum-spanning-trees/04-kruskal-algorithm.md
+      - Important graph algorithms:
+        - Bridges in graph: 04-dsa/01-graph/05-important-graph-algorithms/01-bridges-in-graph.md
+        - Articulation point in Graph: 04-dsa/01-graph/05-important-graph-algorithms/02-articulation-point-in-graph.md
+        - Kosaraju's algorithm: 04-dsa/01-graph/05-important-graph-algorithms/03-kosaraju-algorithm.md
