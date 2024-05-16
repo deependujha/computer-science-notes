@@ -5,6 +5,13 @@
     - `E: number of edges;`
     - `V: number of vertices`
 
+!!! bug "No negative weights"
+    - Dijkstra's algorithm doesn't works for graphs containing **negative weights**.
+    - It can't detect negative cycles and will stuck in the loop forever.
+    - **Bellman-ford algorithm** will tackle these shortcomings, but will have more time complexity.
+
+---
+
 ## Code
 
 !!! danger "Codestudio question: Dijkstra's shortest path"
