@@ -179,6 +179,6 @@ nav:
         - Disjoint set union (by Rank & size): 04-dsa/01-graph/04-minimum-spanning-trees/03-disjoint-set-union-by-rank-and-size.md
         - Kruskal's algorithm: 04-dsa/01-graph/04-minimum-spanning-trees/04-kruskal-algorithm.md
       - Important graph algorithms:
-        - Bridges in graph: 04-dsa/01-graph/05-important-graph-algorithms/01-bridges-in-graph.md
-        - Articulation point in Graph: 04-dsa/01-graph/05-important-graph-algorithms/02-articulation-point-in-graph.md
-        - SCC- Kosaraju's algorithm: 04-dsa/01-graph/05-important-graph-algorithms/03-kosaraju-algorithm.md
+        - SCC- Kosaraju's algorithm: 04-dsa/01-graph/05-important-graph-algorithms/01-kosaraju-algorithm.md
+        - Bridges in graph: 04-dsa/01-graph/05-important-graph-algorithms/02-bridges-in-graph.md
+        - Articulation point in Graph: 04-dsa/01-graph/05-important-graph-algorithms/03-articulation-point-in-graph.md
