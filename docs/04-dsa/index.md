@@ -2,4 +2,4 @@
 
 ## Contents
 
-1. [Graph](./01-graph/01-intro-bfs-dfs/01-introduction.md)
+1. [Graph](./01-graph/index.md)
