@@ -20,7 +20,8 @@
 - Hence it is said that Bellman-Ford is based on **`Principle of Relaxation`**.
 
 - Iterate through all the edges for **(n-1) times**, do relaxation.
-- To detect cycle, iterate for the one last time **(n time)**, and if a single relaxation is possible, means the graph contains negative cycles, and hence shortest distance can't be found.
+
+- To detect negative cycle, iterate for the one last time **(n time)**, and if a single relaxation is possible, means the graph contains negative cycles, and hence shortest distance can't be found.
 
 ---
 

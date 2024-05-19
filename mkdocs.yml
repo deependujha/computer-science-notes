@@ -182,3 +182,7 @@ nav:
         - SCC- Kosaraju's algorithm: 04-dsa/01-graph/05-important-graph-algorithms/01-kosaraju-algorithm.md
         - Bridges in graph: 04-dsa/01-graph/05-important-graph-algorithms/02-bridges-in-graph.md
         - Articulation point in Graph: 04-dsa/01-graph/05-important-graph-algorithms/03-articulation-point-in-graph.md
+
+    - Dynamic Programming:
+        - Home: 04-dsa/02-dp/index.md
+        - Introduction to DP: 04-dsa/02-dp/introduction.md
