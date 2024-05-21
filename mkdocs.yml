@@ -148,6 +148,10 @@ nav:
           - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
   - DBMS:
     - Home: 02-dbms/index.md
+    - Basic Concepts:
+      - Introduction:
+        - What is DBMS?: 02-dbms/01-introduction/01-dbms.md
+        - DBMS architecture: 02-dbms/01-introduction/02-architecture-of-dbms.md
 
 
   - DSA:
