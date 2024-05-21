@@ -148,8 +148,7 @@ nav:
           - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
   - DBMS:
     - Home: 02-dbms/index.md
-    - SQL: 02-dbms/sql.md
-    - NoSQL: 02-dbms/nosql.md
+
 
   - DSA:
     - Home: 04-dsa/index.md
