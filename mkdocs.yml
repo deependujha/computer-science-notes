@@ -120,6 +120,11 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 # Page tree
 nav:
   - Home: index.md
@@ -152,6 +157,22 @@ nav:
       - Introduction:
         - What is DBMS?: 02-dbms/01-introduction/01-dbms.md
         - DBMS architecture: 02-dbms/01-introduction/02-architecture-of-dbms.md
+      - Entity-Relationship Model:
+        - ER-model: 02-dbms/02-entity-relationship-model/01-er-model.md
+      - Relational Model:
+        - Relational model in RDBMS: 02-dbms/03-relational-model/01-relational-model.md
+      - SQL:
+        - Introduction: 02-dbms/04-sql/01-introduction.md
+    - Important concepts:
+      - Normalization, ACID & Indexing:
+        - Normalization: 02-dbms/05-normalization-acid-and-indexing/01-normalization.md
+      - NoSQL & DB types:
+        - NoSQL DB: 02-dbms/06-nosql-and-db-types/01-nosql-db.md
+      - Scaling Databases:
+        - Clustering: 02-dbms/07-scaling-database/01-clustering-in-db.md
+      - Cap theorem & Master-Slave architecture:
+        - Cap theorem: 02-dbms/08-cap-theorem-and-master-slave-architecture/01-cap-theorem.md
+        - Master-Slave architecture: 02-dbms/08-cap-theorem-and-master-slave-architecture/02-master-slave-architecture.md
 
 
   - DSA:
