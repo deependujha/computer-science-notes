@@ -166,6 +166,8 @@ nav:
     - Important concepts:
       - Normalization, ACID & Indexing:
         - Normalization: 02-dbms/05-normalization-acid-and-indexing/01-normalization.md
+        - ACID properties & transactions: 02-dbms/05-normalization-acid-and-indexing/02-acid-properties-and-transactions.md
+        - Implement atomicity & durability: 02-dbms/05-normalization-acid-and-indexing/03-how-to-implement-atomicity-and-durability.md
       - NoSQL & DB types:
         - NoSQL DB: 02-dbms/06-nosql-and-db-types/01-nosql-db.md
       - Scaling Databases:
