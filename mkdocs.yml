@@ -121,7 +121,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
@@ -171,6 +170,7 @@ nav:
         - Indexing in DBMS: 02-dbms/05-normalization-acid-and-indexing/04-indexing-in-dbms.md
       - NoSQL & DB types:
         - NoSQL DB: 02-dbms/06-nosql-and-db-types/01-nosql-db.md
+        - Types of Database: 02-dbms/06-nosql-and-db-types/02-db-types.md
       - Scaling Databases:
         - Clustering & Replica set: 02-dbms/07-scaling-database/01-clustering-and-replica-set-in-db.md
         - Partitioning & Sharding: 02-dbms/07-scaling-database/02-partitioning-and-sharding.md
