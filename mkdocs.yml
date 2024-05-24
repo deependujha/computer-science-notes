@@ -171,6 +171,7 @@ nav:
       - NoSQL & DB types:
         - NoSQL DB: 02-dbms/06-nosql-and-db-types/01-nosql-db.md
         - Types of Database: 02-dbms/06-nosql-and-db-types/02-db-types.md
+        - ACID vs BASE: 02-dbms/06-nosql-and-db-types/03-acid-vs-base.md
       - Scaling Databases:
         - Clustering & Replica set: 02-dbms/07-scaling-database/01-clustering-and-replica-set-in-db.md
         - Partitioning & Sharding: 02-dbms/07-scaling-database/02-partitioning-and-sharding.md
