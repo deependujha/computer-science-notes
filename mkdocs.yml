@@ -168,10 +168,13 @@ nav:
         - Normalization: 02-dbms/05-normalization-acid-and-indexing/01-normalization.md
         - ACID properties & transactions: 02-dbms/05-normalization-acid-and-indexing/02-acid-properties-and-transactions.md
         - Implement atomicity & durability: 02-dbms/05-normalization-acid-and-indexing/03-how-to-implement-atomicity-and-durability.md
+        - Indexing in DBMS: 02-dbms/05-normalization-acid-and-indexing/04-indexing-in-dbms.md
       - NoSQL & DB types:
         - NoSQL DB: 02-dbms/06-nosql-and-db-types/01-nosql-db.md
       - Scaling Databases:
-        - Clustering: 02-dbms/07-scaling-database/01-clustering-in-db.md
+        - Clustering & Replica set: 02-dbms/07-scaling-database/01-clustering-and-replica-set-in-db.md
+        - Partitioning & Sharding: 02-dbms/07-scaling-database/02-partitioning-and-sharding.md
+        - DB scaling pattern: 02-dbms/07-scaling-database/03-db-scaling-pattern.md
       - Cap theorem & Master-Slave architecture:
         - Cap theorem: 02-dbms/08-cap-theorem-and-master-slave-architecture/01-cap-theorem.md
         - Master-Slave architecture: 02-dbms/08-cap-theorem-and-master-slave-architecture/02-master-slave-architecture.md

@@ -88,7 +88,7 @@
     - **Deferred** logs what it will do, and but the updates to DB are not done immediately, but rather stored in buffer. Once the whole process is over, it will go one by one over the logs, and actually execute. If before the update were committed, system crashed, means, nothing could be updated in DB. In that case, it will restart executing the logs.
 
 !!! info ""
-    - **Immediate** logs will log what it will do, then does that, and proceeds like this. If the system crashes before the execution could finish or commit, when the system will restart, it will backtrack the logs and undo the operations. In case it logged committed, but before committing, system crashed, it will redo the operations based on logs. 
+    - **Immediate** logs will log what it will do, then does that, and proceeds like this. If the system crashes before the execution could finish or commit, when the system will restart, it will backtrack the logs and undo the operations. In case it logged committed, but before committing, system crashed, it will redo the operations based on logs.
 
 ![difference](../../images/dbms/log-db-modification.jpg)
 
