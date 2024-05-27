@@ -154,6 +154,7 @@ nav:
       - Concurrency & Deadlocks:
         - Introduction to Concurrency: 01-os/02-process-management/03-concurrency-n-deadlocks/01-intro-to-concurrency.md
         - Critical section & Race condition: 01-os/02-process-management/03-concurrency-n-deadlocks/02-critical-section-n-race-condition.md
+        - Conditional variable & Semaphore: 01-os/02-process-management/03-concurrency-n-deadlocks/03-conditional-variable-n-semaphore.md
 
 
   - DBMS:
