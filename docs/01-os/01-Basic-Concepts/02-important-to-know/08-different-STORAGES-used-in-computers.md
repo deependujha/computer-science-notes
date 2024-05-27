@@ -1,8 +1,8 @@
 # Different STORAGES used in Computers 🤓👨🏻‍💻
 
-## Memory Hierarchy:
+## Memory Hierarchy
 
-![memory hierarchy](../../images/os/MemoryHierarchy.png)
+![memory hierarchy](../../../images/os/MemoryHierarchy.png)
 
 - **Register:** Smallest unit of storage. It is a part of CPU itself.
     - A register may hold an instruction, a storage address, or any data (such as bit sequence or individual characters).

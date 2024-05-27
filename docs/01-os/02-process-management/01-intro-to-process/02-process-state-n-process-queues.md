@@ -14,7 +14,7 @@ As process executes, it changes state. Each process may be in one of the followi
 
 - **Terminated:** The process has finished execution. PCB entry removed from process table.
 
-![process state](../../images/os/Process-State-Diagram.jpg)
+![process state](../../../images/os/Process-State-Diagram.jpg)
 
 !!! info "Process state"
     - **Long-term scheduler:** Selects which processes from a pool of **`new` processes** should be brought into the **`ready`** queue. It is called **`long-term`** because it is invoked infrequently (let's say after 1 second).

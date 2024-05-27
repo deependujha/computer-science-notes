@@ -1,6 +1,6 @@
 # Components of Operating System
 
-![linux architecture](../../images/os/architecture-of-linux.png)
+![linux architecture](../../../images/os/architecture-of-linux.png)
 
 ## Components of OS 😈
 

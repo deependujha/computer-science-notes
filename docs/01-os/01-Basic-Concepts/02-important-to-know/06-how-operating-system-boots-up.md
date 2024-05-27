@@ -2,7 +2,7 @@
 
 We can describe it in 5 steps:
 
-![os boot process](../../images/os/what-is-a-boot-sequence.png)
+![os boot process](../../../images/os/what-is-a-boot-sequence.png)
 
 1. PC power On.
 

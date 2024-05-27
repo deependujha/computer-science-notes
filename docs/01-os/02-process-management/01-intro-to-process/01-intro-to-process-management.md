@@ -1,6 +1,6 @@
 # Introduction to Process Management 🏴‍☠️
 
-![overall process concept](../../images/os/Concepts-_Program_vs._Process_vs._Thread.jpg)
+![overall process concept](../../../images/os/Concepts-_Program_vs._Process_vs._Thread.jpg)
 
 !!! success "What is a program?"
     Compiled code, that is ready to execute.
@@ -31,7 +31,7 @@
 
 ## Architecture of a Process in RAM 🏗️🏙️
 
-![process architecture](../../images/os/process-in-operating-system.png)
+![process architecture](../../../images/os/process-in-operating-system.png)
 
 ---
 
@@ -45,7 +45,7 @@
 
 ## PCB structure 📦
 
-![PCB structure](../../images/os/Process-Control-Block.png) 
+![PCB structure](../../../images/os/Process-Control-Block.png) 
 
 - **Process ID (PID)**: Unique identifier for the process.
 - **Process State**: Current state of the process. (Running, Ready, Blocked, etc.)

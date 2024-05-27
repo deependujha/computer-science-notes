@@ -2,7 +2,7 @@
 
 ## Swapping & Medium-term scheduler (MTS) ♓️
 
-![medium term scheduler](../../images/os/medium-term-scheduler.png)
+![medium term scheduler](../../../images/os/medium-term-scheduler.png)
 
 !!! info
     - **Long-term scheduler** (or job scheduler) selects which processes should be brought into the ready queue. It aims to **select a good process mix of I/O-bound and CPU-bound processes**.

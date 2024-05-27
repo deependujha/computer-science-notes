@@ -12,7 +12,7 @@ which it does not have the permission to perform.
 - **Transitions from `UserMode` to `KernelMode` done by software interrupts.**
 - System Calls are implemented in **C** and **Assembly** language.
 
-![user mode to kernel mode](../../images/os/user-to-kernel.png)
+![user mode to kernel mode](../../../images/os/user-to-kernel.png)
 
 ---
 
@@ -35,9 +35,9 @@ which it does not have the permission to perform.
 
 ## Types of System Calls:
 
-![types of system calls](../../images/os/types-of-system-call.png)
+![types of system calls](../../../images/os/types-of-system-call.png)
 
-![system call commands](../../images/os/system-call-commands.png)
+![system call commands](../../../images/os/system-call-commands.png)
 
 ---
 
