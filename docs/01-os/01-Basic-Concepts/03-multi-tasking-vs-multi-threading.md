@@ -1,5 +1,16 @@
 # Multi-tasking Vs Multi-threading 🥷🏻
 
+???+ example "Analogy explanation of `multitasking` & `multithreading`"
+    Let's say there's one computer and a maintainer, and there are 5 people in a line waiting for their chance to use PC and do their work. Maintainer maintains a rule that no individual is allowed to work continuously for consecutive 5 minutes. If his/her work completes with in 5 minutes, they leave and the next one will get the PC, else, after 5 minutes, they will go back to the end of the line and again wait for their turn.
+
+    This is multi-tasking, (time-sharing).
+
+    Now, suppose a individual person needs to send some mail, research some topic, and download some pics. Either he can do one task after another, or he can perform a task for some time, let's say 1 minute and then move to another task. So, he is basically switching tasks in his own time frame.  This is multi-threading. Each individual task will be called an independent thread of execution.
+
+    This is multi-threading.
+
+---
+
 ## Concept 🕵🏻‍♂️
 
 **Program:** A Program is an executable file which contains a certain set of instructions written

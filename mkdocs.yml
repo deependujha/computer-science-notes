@@ -130,26 +130,31 @@ nav:
   - Operating Systems:
     - Home: 01-os/index.md
     - Basic Concepts:
+      - Introduction:
         - Introduction to OS: 01-os/01-Basic-Concepts/01-introduction-to-os.md
         - Types of OS: 01-os/01-Basic-Concepts/02-types-of-os.md
         - multi-tasking Vs multi-threading: 01-os/01-Basic-Concepts/03-multi-tasking-vs-multi-threading.md
         - Components of OS: 01-os/01-Basic-Concepts/04-components-of-os.md
         - System Calls: 01-os/01-Basic-Concepts/05-system-calls.md
+      - Important to Know:
         - How OS boots up: 01-os/01-Basic-Concepts/06-how-operating-system-boots-up.md
         - 32 Bit Vs 64 Bit: 01-os/01-Basic-Concepts/07-32-Bit_vs_64-Bit-os.md
         - Different storage devices: 01-os/01-Basic-Concepts/08-different-STORAGES-used-in-computers.md
     - Process Management:
+      - Introduction to Process:
         - Introduction to Process Management: 01-os/02-process-management/01-intro-to-process-management.md
         - Process States & Process Queues: 01-os/02-process-management/02-process-state-n-process-queues.md
         - Swapping, Context Switching, Orphan & Zombie Process: 01-os/02-process-management/03-swapping-context-switching-orphan-n-zombie-process.md
-        - Process Scheduling:
-          - Introduction to Process Scheduling: 01-os/02-process-management/04-process-scheduling/01-introduction-to-process-scheduling.md
-          - FCFS & Convoy Effect: 01-os/02-process-management/04-process-scheduling/02-fcfs-n-convoy-effect.md
-          - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
-          - Multi-Level Queue & Multi-Level Feedback Queue: 01-os/02-process-management/04-process-scheduling/04-mlq-n-mlfq.md
-          - Comparison b/w different scheduling algorithms: 01-os/02-process-management/04-process-scheduling/05-comparison-between-process-scheduling-algos.md
-        - Concurrency & Deadlocks:
-          - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
+      - Process Scheduling:
+        - Introduction to Process Scheduling: 01-os/02-process-management/04-process-scheduling/01-introduction-to-process-scheduling.md
+        - FCFS & Convoy Effect: 01-os/02-process-management/04-process-scheduling/02-fcfs-n-convoy-effect.md
+        - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
+        - Multi-Level Queue & Multi-Level Feedback Queue: 01-os/02-process-management/04-process-scheduling/04-mlq-n-mlfq.md
+        - Comparison b/w different scheduling algorithms: 01-os/02-process-management/04-process-scheduling/05-comparison-between-process-scheduling-algos.md
+      - Concurrency & Deadlocks:
+        - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
+
+
   - DBMS:
     - Home: 02-dbms/index.md
     - Basic Concepts:
