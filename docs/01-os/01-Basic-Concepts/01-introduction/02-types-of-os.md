@@ -26,7 +26,7 @@
 - Then, operator submits the batches to the processor one by one.
 - All the jobs of one batch are executed together.
 
-![batch os](../../images/os/batch-os.png)
+![batch os](../../../images/os/batch-os.png)
 
 - Priorities cannot be set, if a job comes with some higher priority.
 - May lead to starvation. (A batch may take more time to complete)

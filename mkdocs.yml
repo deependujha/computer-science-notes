@@ -190,6 +190,28 @@ nav:
 
   - DSA:
     - Home: 04-dsa/index.md
+    - Basic data structures:
+      - Sorting:
+        - Introduction: 04-dsa/00-basic/01-sorting/01-introduction.md
+      - Binary Search:
+        - Introduction: 04-dsa/00-basic/02-binary-search/01-introduction.md
+      - Bit Manipulation:
+          - Introduction: 04-dsa/00-basic/03-bit-manipulation/01-introduction.md
+      - Recursion & Backtracking:
+          - Introduction: 04-dsa/00-basic/04-recursion-and-backtracking/01-introduction.md
+
+    - Intermediate Data Structures:
+      - Linked List:
+        - Introduction: 04-dsa/03-intermediate-data-structures/01-linked-list/01-introduction.md
+      - Stack:
+        - Introduction: 04-dsa/03-intermediate-data-structures/02-stack/01-introduction.md
+      - Queue:
+          - Introduction: 04-dsa/03-intermediate-data-structures/03-queue/01-introduction.md
+      - Sliding window & Two pointers:
+          - Introduction: 04-dsa/03-intermediate-data-structures/04-sliding-window-and-two-pointer/01-introduction.md
+      - Heap (Priority Queue):
+          - Introduction: 04-dsa/03-intermediate-data-structures/05-heap/01-introduction.md
+
     - Graph:
       - Home: 04-dsa/01-graph/index.md
       - Introduction, BFS & DFS:
@@ -223,3 +245,5 @@ nav:
     - Dynamic Programming:
         - Home: 04-dsa/02-dp/index.md
         - Introduction to DP: 04-dsa/02-dp/introduction.md
+
+    
