@@ -211,7 +211,15 @@ nav:
           - Introduction: 04-dsa/03-intermediate-data-structures/04-sliding-window-and-two-pointer/01-introduction.md
       - Heap (Priority Queue):
           - Introduction: 04-dsa/03-intermediate-data-structures/05-heap/01-introduction.md
-
+    - Trees:
+        - Home: 04-dsa/04-trees/index.md
+        - Binary Tree:
+          - Introduction: 04-dsa/04-trees/01-binary-tree/01-introduction.md
+          - Traversals: 04-dsa/04-trees/01-binary-tree/02-traversals.md
+    - Segment & Fenwick Tree:
+        - Home: 04-dsa/05-segment-and-fenwick-tree/index.md
+        - Segment Tree:
+          - Introduction: 04-dsa/05-segment-and-fenwick-tree/01-segment-tree/01-introduction.md
     - Graph:
       - Home: 04-dsa/01-graph/index.md
       - Introduction, BFS & DFS:
