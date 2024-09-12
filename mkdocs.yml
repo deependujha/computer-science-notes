@@ -254,4 +254,34 @@ nav:
         - Home: 04-dsa/02-dp/index.md
         - Introduction to DP: 04-dsa/02-dp/introduction.md
 
-    
+  - Design Patterns:
+    - Home: 05-design-patterns/index.md
+    - Introduction: 05-design-patterns/introduction.md
+    - Classification of Design Patterns: 05-design-patterns/01-classification-of-design-patterns.md
+    - Concepts & Examples:
+      - Index: 05-design-patterns/design-pattern-index.md
+      - Creational Patterns:
+        - Singleton: 05-design-patterns/02-creational/01-singleton.md
+        - Builder: 05-design-patterns/02-creational/02-builder.md
+        - Factory: 05-design-patterns/02-creational/03-factory.md
+        - Abstract Factory: 05-design-patterns/02-creational/04-abstract-factory.md
+        - Prototype: 05-design-patterns/02-creational/05-prototype.md
+      - Structural Patterns:
+        - Adapter: 05-design-patterns/03-structural/01-adapter.md
+        - Bridge: 05-design-patterns/03-structural/02-bridge.md
+        - Composite: 05-design-patterns/03-structural/03-composite.md
+        - Decorator: 05-design-patterns/03-structural/04-decorator.md
+        - Facade: 05-design-patterns/03-structural/05-facade.md
+        - Flyweight: 05-design-patterns/03-structural/06-flyweight.md
+        - Proxy: 05-design-patterns/03-structural/07-proxy.md
+      - Behavioral Patterns:
+        - Chain of Responsibility: 05-design-patterns/04-behavioral/01-chain-of-responsibility.md
+        - Command: 05-design-patterns/04-behavioral/02-command.md
+        - Iterator: 05-design-patterns/04-behavioral/03-iterator.md
+        - Mediator: 05-design-patterns/04-behavioral/04-mediator.md
+        - Memento: 05-design-patterns/04-behavioral/05-memento.md
+        - Observer: 05-design-patterns/04-behavioral/06-observer.md
+        - State: 05-design-patterns/04-behavioral/07-state.md
+        - Strategy: 05-design-patterns/04-behavioral/08-strategy.md
+        - Template Method: 05-design-patterns/04-behavioral/09-template-method.md
+        - Visitor: 05-design-patterns/04-behavioral/10-visitor.md
