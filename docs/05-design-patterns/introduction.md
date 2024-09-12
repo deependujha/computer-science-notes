@@ -1,5 +1,7 @@
 # What's a design pattern?
 
+[Design patterns](https://refactoring.guru/design-patterns/catalog)
+
 ## Design Patterns
 
 - Design patterns are typical solutions to commonly occurring problems in software design.
