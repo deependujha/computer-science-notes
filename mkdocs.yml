@@ -217,6 +217,7 @@ nav:
           - Introduction: 04-dsa/04-trees/01-binary-tree/01-introduction.md
           - Traversals: 04-dsa/04-trees/01-binary-tree/02-traversals.md
           - Medium Problems: 04-dsa/04-trees/01-binary-tree/03-medium-problems.md
+          - Hard Problems: 04-dsa/04-trees/01-binary-tree/04-hard-problems.md
     - Segment & Fenwick Tree:
         - Home: 04-dsa/05-segment-and-fenwick-tree/index.md
         - Segment Tree:
